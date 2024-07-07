@@ -11,40 +11,24 @@ div {
 
 * {borde: 1px solid black;
 }
-
-img{
-    width: 360px;
-height: 200px;
-}
-.gallery{
-display: flex;
-    flex-direction: row;
+.gallery {
+    display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 24px;
-    list-style-type: none;
-   
-      
+    list-style: none;
+    padding: 0;
 }
 
-.gallery-item{
-width: 376px;
-    height: 208px;
-text-align: center;
+.gallery-item {
+    flex: calc((100% - 2 * 24px) / 3);
+    transition: transform 0.3s;
 }
 
-.gallery-link{
-    display: block;
-
-}
-.gallery-image{
-    width: 360px;
-        height: 200px;
-}
-.gallery-image:hover{
-    width: 376px;
-    height: 208px;
-        transition: transform 0.4s;
-        
+.gallery-item:hover {
+    transform: scale(1.03);
 }
 
+.gallery-image {
+    width: 100%;
+    height: auto;
+}
