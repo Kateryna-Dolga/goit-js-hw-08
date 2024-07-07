@@ -44,4 +44,7 @@ text-align: center;
 .gallery-image:hover{
     width: 376px;
     height: 208px;
+        transition: transform 0.4s;
+        
 }
+
