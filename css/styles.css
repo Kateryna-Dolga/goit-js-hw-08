@@ -1,0 +1,47 @@
+li,
+ul,
+h2,
+h1,
+h3,
+p,
+div {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {borde: 1px solid black;
+}
+
+img{
+    width: 360px;
+height: 200px;
+}
+.gallery{
+display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    list-style-type: none;
+   
+      
+}
+
+.gallery-item{
+width: 376px;
+    height: 208px;
+text-align: center;
+}
+
+.gallery-link{
+    display: block;
+
+}
+.gallery-image{
+    width: 360px;
+        height: 200px;
+}
+.gallery-image:hover{
+    width: 376px;
+    height: 208px;
+}
